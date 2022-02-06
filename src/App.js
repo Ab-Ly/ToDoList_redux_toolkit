@@ -5,7 +5,10 @@ import TodoList from "./components/TodoList";
 
 function App() {
   return (
-    <div>
+    <div
+      className="container"
+      style={{ textAlign: "center", marginTop: "10px" }}
+    >
       <h1>TO DO LIST </h1>
       <AddToDo />
       <TodoList />
